@@ -1,0 +1,54 @@
+#divi1{
+    height: 200px;
+    background-image:url(download.png),url(panda3.png),url(panda2.png);
+    background-size: 200px;
+    background-position:left,center,right;
+    background-repeat: no-repeat;
+
+    border: 10px solid black;
+/*
+
+    
+    padding: 20px;
+    background-clip: padding-box;
+    background-image: url(OIG.n9uMDUv50OpeIkdd_8u0);
+    background-origin: padding-box;
+    background-repeat: no-repeat;
+    background-size: 100px;
+*/
+
+}
+#dt1{
+    background-color: lawngreen;
+   border: 10px dotted black;
+    background-origin: border-box;
+    background-clip: border-box;
+}
+#dt2{
+    background-color: lawngreen;
+    border: 10px dotted black;
+    background-origin: padding-box;
+    background-clip: padding-box;
+}
+#div2{
+    height: 200px;
+    width: 200px;
+    border: 2px solid red;
+}
+#p1{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+#div3{
+    height: 200px;
+    width: 200px;
+    border: 2px solid red;
+}
+.child{
+    border: 2px solid green;
+    height: 30px;
+    width: 30px;
+    margin: auto;
+}
